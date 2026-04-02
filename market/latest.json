@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-04-03T09:00:00+09:00",
+  "phase": "volatile",
+  "risk_level": 68,
+  "direction": "방어적",
+  "headline": "데이터가 연결되면 이 자리에 시장 요약이 표시됩니다.",
+  "summary": "market/latest.json 초기 템플릿입니다. Signal Lab → AI 분석 후 이 파일을 갱신합니다.",
+  "indices": {
+    "kospi": { "value": null, "change": null },
+    "kosdaq": { "value": null, "change": null },
+    "sp500": { "value": null, "change": null }
+  },
+  "environment": {
+    "fx_usdkrw": null,
+    "wti": null,
+    "vix": null,
+    "memo": ""
+  }
+}
