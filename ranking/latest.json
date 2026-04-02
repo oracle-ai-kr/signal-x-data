@@ -1,0 +1,10 @@
+{
+  "updated_at": "2026-04-03T09:00:00+09:00",
+  "top_picks": [],
+  "spike_signals": [],
+  "risk_warnings": [],
+  "meta": {
+    "total_analyzed": 0,
+    "note": "ranking/latest.json 초기 템플릿입니다. 종목 분석이 쌓이면 자동 갱신됩니다."
+  }
+}
