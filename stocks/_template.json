@@ -1,0 +1,82 @@
+{
+  "_comment": "이 파일은 종목 분석 JSON 템플릿입니다. 실제 분석 시 {symbol}.json 형태로 저장됩니다.",
+  "identity": {
+    "type": "stock",
+    "symbol": "",
+    "name": "",
+    "market": "",
+    "sector": "",
+    "currency": "KRW",
+    "analyzed_at": "",
+    "timeframe": "D",
+    "region": "KR"
+  },
+  "summary": {
+    "action": "",
+    "score": 0,
+    "grade": "",
+    "confidence": 0,
+    "label": "",
+    "headline": "",
+    "status_tag": "",
+    "score_explained": ""
+  },
+  "scoreboard": {
+    "value":    { "score": 0, "rating": "", "comment": "", "weight": 0.30 },
+    "growth":   { "score": 0, "rating": "", "comment": "", "weight": 0.25 },
+    "momentum": { "score": 0, "rating": "", "comment": "", "weight": 0.25 },
+    "risk":     { "score": 0, "rating": "", "comment": "", "weight": 0.20 }
+  },
+  "action_plan": {
+    "current_price": 0,
+    "entry_zone": [],
+    "target_1": 0,
+    "target_2": 0,
+    "stop_loss": 0,
+    "scenarios": {
+      "bullish": "",
+      "neutral": "",
+      "bearish": ""
+    }
+  },
+  "reasoning": {
+    "positive": [],
+    "negative": [],
+    "checkpoints": [],
+    "report": {
+      "interpretation": "",
+      "change_reason": "",
+      "market_relation": "",
+      "watch_note": ""
+    }
+  },
+  "market_context": {
+    "phase": "",
+    "risk_level": 0,
+    "direction": "",
+    "relation": "",
+    "environment_memo": ""
+  },
+  "alerting": {
+    "should_notify": false,
+    "priority": 3,
+    "alert_type": "",
+    "title": "",
+    "body": "",
+    "dedup_key": "",
+    "delta": { "prev_score": null, "score_change": null, "action_changed": false },
+    "throttle": { "min_interval_hours": 4, "min_score_delta": 5, "cooldown_by_type": 12 }
+  },
+  "meta": {
+    "analysis_version": "1.0",
+    "scoring_model": "B-balanced-v1",
+    "prompt_version": "sx-prompt-v1",
+    "validation": {
+      "is_consistent": false,
+      "checks": { "score_conflict": false, "extreme_value": false, "logic_mismatch": false },
+      "computed_score": 0,
+      "score_gap": 0,
+      "scoring_method": { "weighted_sum": 0, "risk_adjusted": 0, "market_adjusted": 0 }
+    }
+  }
+}
