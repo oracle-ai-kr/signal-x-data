@@ -1,0 +1,185 @@
+{
+  "identity": {
+    "symbol": "005380.KS",
+    "name": "현대자동차",
+    "sector": "자동차",
+    "exchange": "KRX",
+    "currency": "KRW",
+    "timeframe": "1day",
+    "collected_at": "2026-04-03T21:00:59+09:00"
+  },
+  "summary": {
+    "action": "HOLD",
+    "grade": "C",
+    "score": 48,
+    "label": "단기 하락 추세 속 반등 조짐, 관세 리스크로 적극 매수 시기 아님",
+    "score_explained": "value(55)×30% + growth(40)×20% + momentum(42)×30% + risk(58→감점)×20% = raw 46.9 → 관세 리스크 감안 시장조정 +1.1 → 최종 48. 재무 가치(저PER·배당 유지)가 긍정적이나, 성장성 둔화(영업이익 -20% YoY)와 기술적 하락 모멘텀(MA20/60 하회, MACD 음전)이 상쇄. 매크로 관세 리스크가 자동차 섹터 전반에 부정적 영향."
+  },
+  "scoreboard": {
+    "total": {
+      "score": 48,
+      "label": "중립-약세"
+    },
+    "sources": {
+      "value": {
+        "score": 55,
+        "weight": 0.3,
+        "reason": "PER(TTM) 약 13배로 업종 대비 소폭 고평가이나, PBR 0.5배 수준 저평가. 주당 배당 10,000원 유지(배당수익률 ~2.1%). 자사주 매입·소각 정책 지속. 시총 대비 현금흐름 양호."
+      },
+      "growth": {
+        "score": 40,
+        "weight": 0.2,
+        "reason": "2025년 연간 영업이익 11.5조(YoY -20%), 당기순이익 10.4조(YoY -25%). 2026 가이던스 매출 성장 1~2%, 영업이익률 6.3~7.3% 목표. HEV/EREV 전환기 투자 부담. 성장 모멘텀 제한적."
+      },
+      "momentum": {
+        "score": 42,
+        "weight": 0.3,
+        "reason": "가격 MA20(-6.3%)·MA60(-4.3%) 하회. RSI 45 중립, MACD 음전 유지 but 히스토그램 3봉 축소(하락 감속). 불리시 하라미 출현. BB 하단 근접. 20일 -14.8% 급락으로 과매도 영역 진입 조짐."
+      },
+      "risk": {
+        "score": 58,
+        "weight": 0.2,
+        "reason": "미국 자동차 관세 25% 직격탄(미국 비중 ~25%). ATR% 5.96 고변동성. 외국인 매도 확대. 환율 변동성. 다만 52주 위치 50%, Fib 50% 부근 지지 테스트 중."
+      }
+    }
+  },
+  "action_plan": {
+    "position": "HOLD — 기존 보유자 유지, 신규 진입 대기",
+    "entry_price": 450000,
+    "target_price": 520000,
+    "stop_loss": 430000,
+    "risk_reward_ratio": 3.5,
+    "time_horizon": "2~4주",
+    "scenarios": [
+      {
+        "label": "반등 시나리오",
+        "probability": 40,
+        "description": "MACD 히스토그램 축소 지속 → 골든크로스 전환 시 MA60(491K) 회복. 관세 협상 긍정 시그널 + 4/23 실적발표 기대감으로 520K 타겟."
+      },
+      {
+        "label": "횡보 시나리오",
+        "probability": 35,
+        "description": "445K~490K 박스권. Fib 50%(491K) 저항 vs Fib 61.8%(448K) 지지 사이에서 방향성 탐색. 실적 발표 전까지 관망 심리 지배."
+      },
+      {
+        "label": "추가 하락 시나리오",
+        "probability": 25,
+        "description": "관세 확대 or 실적 미스 시 Fib 61.8%(448K) 이탈 → VP-VAL(438K) → Fib 78.6%(386K) 순차 하락. 430K 손절 필수."
+      }
+    ]
+  },
+  "reasoning": {
+    "positive": [
+      {
+        "factor": "저PBR 밸류에이션",
+        "detail": "PBR 약 0.5배, 글로벌 자동차 피어 대비 현저한 저평가"
+      },
+      {
+        "factor": "배당 안정성",
+        "detail": "주당 최소 10,000원 배당 정책, 자사주 소각 병행 (TSR 35%+)"
+      },
+      {
+        "factor": "MACD 강세 다이버전스",
+        "detail": "가격 신저점 vs MACD 저점 상승 → 하락 모멘텀 소진 신호"
+      },
+      {
+        "factor": "히스토그램 축소 3봉",
+        "detail": "하락 감속, 반등 준비 국면 진입"
+      },
+      {
+        "factor": "글로벌 생산 다변화",
+        "detail": "HMGMA(미국)·인도 푸네 등 현지 생산으로 관세 영향 부분 상쇄"
+      },
+      {
+        "factor": "HEV/하이브리드 판매 호조",
+        "detail": "친환경차 YoY +25% 성장, 팰리세이드 HEV 국내 인기"
+      }
+    ],
+    "negative": [
+      {
+        "factor": "미국 관세 25%",
+        "detail": "미국 판매 비중 ~25%, 관세 직격탄으로 4Q25 영업이익률 3.6%까지 하락"
+      },
+      {
+        "factor": "영업이익 급감",
+        "detail": "2025 연간 영업이익 -20% YoY, 4Q 단독 -40% YoY"
+      },
+      {
+        "factor": "기술적 하락 추세",
+        "detail": "MA5<MA13<MA20<MA60 역배열 진행 중, ADX 17.7 추세 약"
+      },
+      {
+        "factor": "외국인 매도 확대",
+        "detail": "2026년 외국인 순매도 기조 지속, OBV 하락"
+      },
+      {
+        "factor": "EV 캐즘",
+        "detail": "전기차 성장 둔화, 인센티브 경쟁 심화로 마진 압박"
+      },
+      {
+        "factor": "고변동성",
+        "detail": "ATR% 5.96%, 최근 일간 변동폭 3~8% 빈번"
+      }
+    ],
+    "checklist": [
+      {
+        "item": "4/23 실적 발표 전 포지션 정리 여부 결정",
+        "status": "pending"
+      },
+      {
+        "item": "관세 협상 진전 뉴스 모니터링",
+        "status": "pending"
+      },
+      {
+        "item": "Fib 61.8%(448K) 지지 테스트 관찰",
+        "status": "watching"
+      },
+      {
+        "item": "MACD 골든크로스 발생 여부",
+        "status": "watching"
+      },
+      {
+        "item": "외국인 순매수 전환 시그널",
+        "status": "not_yet"
+      },
+      {
+        "item": "거래량 확대 동반 양봉 출현",
+        "status": "not_yet"
+      }
+    ]
+  },
+  "market_context": {
+    "macro_summary": "한국 경제 회복 초기(GDP 1.9%E), 반도체 수출 호조 but 미 관세·환율 변동성이 자동차 섹터에 직접적 부정 영향. 한은 금리인하 기대감은 긍정적이나, 가계부채·부동산 불균형이 제약.",
+    "sector_position": "자동차 섹터 비중 축소 권고 구간. 관세 25% 직격 업종으로 단기 센티먼트 최악. 조선·방산·반도체 대비 상대적 열위.",
+    "correlation_note": "코스피 +2.74%(4/3) 반등 시에도 현대차 제한적 반등(+1.18%). 시장 대비 언더퍼폼 지속. S&P500 +0.11%와 약한 양의 상관."
+  },
+  "alerting": {
+    "priority": 3,
+    "trigger": "종가 448,000원(Fib 61.8%) 하회 시 SELL 전환 검토 / 종가 491,000원(Fib 50%+MA60) 상회 시 BUY 전환 검토",
+    "message": "현대차 HOLD 유지 — 반등 조짐 있으나 관세 리스크로 확신 부족. 실적 발표(4/23) 전후 방향성 확인 필요.",
+    "throttle": {
+      "interval_hours": 4,
+      "delta_threshold": 5,
+      "cooldown_hours": 12
+    }
+  },
+  "meta": {
+    "schema_version": "2.1",
+    "analysis_date": "2026-04-03",
+    "data_sources": [
+      "prompt_forge",
+      "fund_helper",
+      "signal_lab"
+    ],
+    "validation": {
+      "scoring_method": "weighted_sum → risk_adjusted → market_adjusted",
+      "source_coverage": {
+        "macro": true,
+        "fundamental": true,
+        "technical": true
+      }
+    },
+    "risk_rating": "medium",
+    "next_review": "2026-04-07"
+  }
+}
