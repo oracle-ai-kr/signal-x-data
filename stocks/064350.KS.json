@@ -1,0 +1,182 @@
+{
+  "identity": {
+    "ticker": "064350",
+    "symbol": "064350.KS",
+    "name": "현대로템",
+    "sector": "방산/운송장비",
+    "exchange": "KRX",
+    "currency": "KRW"
+  },
+  "summary": {
+    "action": "BUY",
+    "score": 72,
+    "grade": "B",
+    "label": "저점 반등 + 수주잔고 뒷받침 → 분할 매수 적기",
+    "score_explained": "4개 원천점수 가중합산: value 65×0.25(16.25) + growth 82×0.25(20.5) + momentum 70×0.30(21.0) + risk 58×0.20(11.6) = 원점수 69.35 → 시장환경 보정(코스피 -4.47% 급락 속 아웃퍼폼, +3pt) = 72.35 → 반올림 72. 주봉 정배열+RSI52 중립구간 확인으로 신뢰도 유지. risk가 58로 낮은 이유: 52주 고점 대비 -23% 낙폭 + BB 상단 접근 과열 신호 + ATR 5.52% 고변동성.",
+    "score_summary": "방산 수출 확대와 사상 최대 수주잔고(29.8조)가 펀더멘털을 뒷받침하고, 168,900원 저점에서 거래량 동반 V자 반등이 진행 중이어서 분할 매수 관점에서 유리한 구간입니다."
+  },
+  "scoreboard": {
+    "sources": {
+      "value": {
+        "score": 65,
+        "weight": 0.25,
+        "reason": "PER 28배(TTM 기준 EPS 7,174원)로 업종 평균 10.67배 대비 고평가이나, 2026F EPS 8,705~11,289원 기준 Forward PER 18~24배로 성장 프리미엄 감안 시 수용 가능. PBR 6.73배는 ROE 30%+ 고려 시 합리적. 영업이익률 17%대로 방산업 내 최고 수준."
+      },
+      "growth": {
+        "score": 82,
+        "weight": 0.25,
+        "reason": "2025년 매출 5.84조(+33.4%), 영업이익 1조원 돌파(+120.3%). 수주잔고 29.8조(+58.7% YoY)로 향후 5년치 매출 확보. 2026F 매출 6.8~7.1조(+22%), 영업이익 1.2~1.3조 전망. 폴란드 K2 2차 사업(8.7조) + 이라크·루마니아·페루 추가 수출 파이프라인."
+      },
+      "momentum": {
+        "score": 70,
+        "weight": 0.30,
+        "reason": "168,900원(3/31) → 210,000원(4/4) 단기 +24% V자 반등. MACD 히스토그램 3봉 연속 양 확대, ADX 34.75 강한 추세. 4/2 거래량 224% 폭증(매수세 확인). 다만 BB %B 89.5% 과열 + MA60(208,388) 근접 저항 + 스토캐스틱 %K 93.5 과매수 구간이 단기 리스크."
+      },
+      "risk": {
+        "score": 58,
+        "weight": 0.20,
+        "reason": "52주 고점(274,000) 대비 -23% 위치. ATR% 5.52%로 일일 변동성 높음. 3/4 하루 -22.3% 급락 이력(고변동성 종목). 코스피 -4.47% 급락 환경 속 독자 반등이나 시장 리스크 상존. 부채비율 206%(선수금 제외 시 58.5%)."
+      }
+    }
+  },
+  "action_plan": {
+    "position_size": "포트폴리오 5~8%",
+    "entry_price": 205000,
+    "target_price": 250000,
+    "stop_loss": 185000,
+    "risk_reward_ratio": 2.25,
+    "time_horizon": "2~3개월",
+    "strategy": "MA60(208,388) 지지 확인 후 1차 진입, 220,000 돌파 시 2차 추가. BB 상단(214,834) 근접 시 단기 눌림 가능 — 급추격 자제.",
+    "scenarios": [
+      {
+        "label": "강세 시나리오",
+        "probability": 40,
+        "description": "MA60 돌파 안착 + 폴란드 2차 사업 진행률 가속 + 이라크 계약 확정 뉴스 → 목표가 250,000~270,000 도달. 거래량 동반 BB 상단 돌파 시 추가 상승 모멘텀."
+      },
+      {
+        "label": "기본 시나리오",
+        "probability": 40,
+        "description": "MA60 부근(205,000~215,000)에서 횡보 조정 후 점진적 상승. 2Q26 실적 시즌에서 방산 매출 확대 확인 시 220,000~240,000 레인지 진입."
+      },
+      {
+        "label": "약세 시나리오",
+        "probability": 20,
+        "description": "코스피 추가 급락 또는 글로벌 방산 센티먼트 악화 시 MA20(191,840) 이탈 → 180,000~185,000 재테스트. 이 경우 스톱로스 185,000 작동."
+      }
+    ]
+  },
+  "reasoning": {
+    "positive": [
+      {
+        "factor": "사상 최대 수주잔고",
+        "detail": "2025년 말 수주잔고 29.8조원(+58.7% YoY). 향후 5년치 매출 가시성 확보. 폴란드 K2 2차(8.7조), 모로코 철도(2.2조), 대장홍대선(1.3조) 등."
+      },
+      {
+        "factor": "영업이익 1조원 돌파",
+        "detail": "2025년 영업이익 1조56억원(+120.3%). 방산 OPM 17%+로 업종 최고 수준. 수출 마진 35%+ 구간."
+      },
+      {
+        "factor": "강한 기술적 반등",
+        "detail": "168,900원 저점에서 V자 반등, 4/2 거래량 224% 폭증 + MACD 3봉 양 확대 + ADX 34.75 강한 추세. 주봉 정배열 유지."
+      },
+      {
+        "factor": "수출 파이프라인 다변화",
+        "detail": "폴란드 외 이라크(K2ME, 250대 9조원 규모), 루마니아(의회 승인 요청), 페루, 슬로바키아 등 다수 잠재 수주처. 증권사 전원 BUY 의견."
+      },
+      {
+        "factor": "시장 대비 아웃퍼폼",
+        "detail": "코스피 -4.47% 급락일에 독자 반등(+4.22%). 방산 섹터 디커플링 확인. 외국인 지분율 33%+ 유지."
+      }
+    ],
+    "negative": [
+      {
+        "factor": "밸류에이션 부담",
+        "detail": "PER 28배, PBR 6.73배로 업종 평균(PER 10.67배) 대비 고평가. 성장 프리미엄이 이미 상당 부분 반영됨."
+      },
+      {
+        "factor": "고변동성",
+        "detail": "ATR 5.52%, 3/4 하루 -22.3% 급락 이력. 단기 트레이딩 리스크 높음. BB 밴드폭 23.97% 과확장 상태."
+      },
+      {
+        "factor": "기술적 과열 신호",
+        "detail": "스토캐스틱 %K 93.5 과매수, BB %B 89.5% 상단 접근, CCI 93.96. 단기 눌림 조정 가능성."
+      },
+      {
+        "factor": "글로벌 불확실성",
+        "detail": "미국 관세 정책 변동성, 코스피 급락 환경. 원화 약세(1,400원대) 지속 시 외국인 매도 압력 가능."
+      }
+    ],
+    "checklist": [
+      {"item": "수주잔고 증가 추세", "status": "pass"},
+      {"item": "영업이익률 15% 이상 유지", "status": "pass"},
+      {"item": "거래량 동반 반등", "status": "pass"},
+      {"item": "주봉 추세 상승 구조", "status": "pass"},
+      {"item": "증권사 컨센서스 BUY", "status": "pass"},
+      {"item": "PER 업종 평균 이하", "status": "fail"},
+      {"item": "MA60 돌파 안착", "status": "warning"},
+      {"item": "스토캐스틱 과매수 해소", "status": "warning"},
+      {"item": "코스피 안정화", "status": "warning"}
+    ]
+  },
+  "market_context": {
+    "macro_summary": "한국은행 기준금리 2.5% 동결 유지(6회 연속). 2026년 GDP 성장률 1.9~2.0% 전망(KDI/BOK). 반도체 수출 호조 + 소비 회복세이나, 건설투자 부진 + 미국 관세 정책 불확실성 상존. 코스피 4/3 기준 -4.47% 급락으로 글로벌 리스크오프 심화.",
+    "sector_position": "방산 섹터 Top Pick. 국내 방산업체 중 수주잔고·수출 비중 1위. K2 전차 글로벌 수출 확대가 핵심 동력. 증권사 평균 목표가 281,000~300,000원(현재가 대비 +33~43% 상승여력).",
+    "correlation_note": "코스피 급락에도 방산 섹터 디커플링 현상 지속. 글로벌 지정학 리스크(우크라이나, 중동) → 방산 수요 구조적 증가. 원화 약세는 수출 매출 환산 시 긍정적."
+  },
+  "alerting": {
+    "priority": 2,
+    "trigger": "MA60(208,388) 종가 기준 이탈 시 경고 / 220,000 돌파 시 추가매수 신호 / 185,000 이탈 시 손절",
+    "conditions": [
+      "종가 < 208,000 (MA60 이탈) → 1차 경고",
+      "종가 < 191,840 (MA20 이탈) → 2차 경고",
+      "종가 < 185,000 → 손절 실행",
+      "종가 > 220,000 + 거래량 80만+ → 추가매수 신호",
+      "종가 > 250,000 → 목표가 도달, 익절 검토"
+    ],
+    "throttle": {
+      "interval_hours": 4,
+      "delta_threshold": 5,
+      "cooldown_hours": 12
+    }
+  },
+  "meta": {
+    "analysis_date": "2026-04-04",
+    "version": "2.1",
+    "data_sources": ["prompt_forge", "fund_helper", "signal_lab"],
+    "financial_snapshot": {
+      "market_cap": 22900000000000,
+      "per_ttm": 28.03,
+      "forward_per": 24.1,
+      "eps_ttm": 7174,
+      "forward_eps": 8705,
+      "pbr": 6.73,
+      "roe": 30.7,
+      "ev_ebitda": null,
+      "revenue_ttm": 5839000000000,
+      "operating_income_ttm": 1005600000000,
+      "operating_margin": 17.2,
+      "dividend_yield": 0.32,
+      "shares_outstanding": 109142000,
+      "foreign_ownership_pct": 33.52,
+      "debt_ratio": 206,
+      "debt_ratio_ex_advance": 58.5,
+      "backlog": 29773500000000,
+      "analyst_target_high": 340000,
+      "analyst_target_low": 250000,
+      "analyst_target_avg": 297000,
+      "analyst_consensus": "BUY",
+      "analyst_count": 18,
+      "week52_high": 274000,
+      "week52_low": 165300
+    },
+    "validation": {
+      "scoring_method": "weighted_sum → risk_adjusted → market_adjusted",
+      "source_coverage": {
+        "prompt_forge": true,
+        "fund_helper": true,
+        "signal_lab": true
+      },
+      "confidence": "high"
+    }
+  }
+}
