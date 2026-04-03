@@ -1,0 +1,197 @@
+{
+  "identity": {
+    "ticker": "006400.KS",
+    "name": "삼성SDI",
+    "sector": "전기·전자 / 2차전지",
+    "exchange": "KRX (코스피)",
+    "currency": "KRW",
+    "analysis_timeframe": "일봉 (1day)",
+    "data_period": "2025-11-06 ~ 2026-04-03"
+  },
+  "summary": {
+    "action": "HOLD",
+    "score": 55,
+    "grade": "C",
+    "label": "단기 강세 모멘텀 우수하나 재무 적자 지속 + 매크로 불확실성으로 적극 매수 부적합",
+    "score_explained": "momentum(75) × 0.30 = 22.5 | value(35) × 0.25 = 8.75 | growth(55) × 0.25 = 13.75 | risk(40→역산60) × 0.20 = 12.0 → 합산 57.0 → risk_adjusted(적자기업 감점 -3) = 54.0 → market_adjusted(매크로 중립~주의, +1) = 55.0. 기술적 모멘텀(MA정배열, MACD양전, 주봉강세)이 최고점이나 2025년 연간 영업적자 1.72조, 배당 3년 미실시 결정으로 가치 점수 대폭 하락. 성장성은 ESS 폭발 성장 + 2027년 흑자전환 전망이 반영되었으나 EV 캐즘 지속이 감점. 매크로는 중동리스크·고환율·스태그플레이션 우려가 상존하나 코스피 반등 + 수출 호조가 일부 상쇄."
+  },
+  "scoreboard": {
+    "total_score": 55,
+    "total_grade": "C",
+    "sources": {
+      "value": {
+        "score": 35,
+        "weight": 0.25,
+        "rating": "weak",
+        "reason": "2025년 연간 영업적자 1조7224억원. PER 적자로 산출 불가(Forward PER 약 40배). PBR 1.54배(업종 평균 대비 고평가). 2025~2027년 배당 미실시 결정. FCF 적자 지속 전망. EV/EBITDA 10.4배(2026F). 순부채비율 34.6%(2026F) 양호한 편이나 전반적 재무가치 약세."
+      },
+      "growth": {
+        "score": 55,
+        "weight": 0.25,
+        "rating": "neutral",
+        "reason": "ESS 배터리 역대 최대 매출 기록 + 미국 AMPC 세액공제 수혜 확대. 2026년 매출 15조원(+13.1% YoY) 전망. 2027년 흑자전환(영업이익 1.1조) 기대. 전고체 배터리 2027년 양산 목표. 다만 EV 수요 캐즘 지속, 중국 LFP 가격 공세, OEM 전환 속도 둔화로 성장 불확실성 상존. 편광필름 사업 양도로 포트폴리오 축소."
+      },
+      "momentum": {
+        "score": 75,
+        "weight": 0.30,
+        "rating": "positive",
+        "reason": "MA 정배열(MA5>MA13>MA20>MA60). MACD 양전 + 히스토그램 4봉 연속 양 확대(강세 가속). 주봉 RSI 67.02 강세 영역. 60일 +59.45% 급등. 직전 확정봉 거래량 283.5%(20일 평균 대비). VWAP 위 +7.08%. Value Area 돌파. 다만 BB상단 터치(%B 102.8%), 트위저 탑 패턴 감지, ADX 14.31(무추세), CCI 227(과열) 등 단기 과열/조정 신호 동시 존재."
+      },
+      "risk": {
+        "score": 40,
+        "weight": 0.20,
+        "rating": "high",
+        "reason": "중동 지정학적 리스크(유가 100달러, 환율 1,500원대). 한국 스태그플레이션 우려. 코스피 4/2 -4.47% 급락 경험. 2차전지 업종 변동성 극대(ATR% 5.18%). 52주 고점 대비 -7.4% 위치로 고점 부담. 2025년 연간 적자 + 3년 무배당 결정으로 fundamental 리스크. 트위저 탑 고점 반전 패턴. BB 밴드폭 과확장(16.31%) → 수렴 예상."
+      }
+    }
+  },
+  "action_plan": {
+    "position": "HOLD — 보유자 유지, 신규진입 조정 대기",
+    "entry_price": 410000,
+    "entry_note": "MA20(403,725) ~ Fib23.6%(419,154) 구간 조정 시 분할 매수 고려",
+    "target_price": 473500,
+    "target_note": "52주 고점 = 스윙고점(02-27). 돌파 시 500,000 상향 열림",
+    "stop_loss": 376000,
+    "stop_loss_note": "MA60(376,392) 이탈 시 중기 추세 붕괴 판단",
+    "risk_reward_ratio": "1:1.87",
+    "holding_period": "중기 (2~6주)",
+    "scenarios": [
+      {
+        "label": "강세 지속 시나리오",
+        "probability": 35,
+        "description": "ESS 실적 서프라이즈 + 중동 긴장 완화로 매크로 개선 → 52주 고점 473,500 돌파 후 500,000 목표. 조건: 거래량 동반 BB상단 안착, ADX 20 이상 상승"
+      },
+      {
+        "label": "횡보 조정 시나리오 (기본)",
+        "probability": 45,
+        "description": "BB 과확장 + 트위저 탑 → 410,000~440,000 박스권 2~3주 횡보 후 방향성 탐색. ADX 15 미만 무추세 지속. MA20 지지 여부가 핵심"
+      },
+      {
+        "label": "하락 조정 시나리오",
+        "probability": 20,
+        "description": "매크로 악화(유가 추가 상승, 환율 1,550원) + EV 수요 추가 둔화 뉴스 → Fib38.2%(390,173) 또는 MA60(376,392)까지 조정. 375,500 이탈 시 추세 전환"
+      }
+    ]
+  },
+  "reasoning": {
+    "positive": [
+      {
+        "factor": "기술적 강세 구조",
+        "detail": "MA 정배열 + MACD 양전 + 히스토그램 4봉 연속 확대. 주봉도 정배열+양전으로 상위 TF 상승 구조 확인. 60일 +59.45% 강한 반등."
+      },
+      {
+        "factor": "ESS 사업 폭발적 성장",
+        "detail": "ESS용 배터리 역대 최대 분기 매출. AI 데이터센터 전력 수요 급증으로 구조적 성장 동력 확보. 미국 SPE 공장 AMPC 수혜 확대."
+      },
+      {
+        "factor": "실적 바닥 통과 확인",
+        "detail": "4Q25 적자폭 전분기 대비 절반 수준으로 축소. 증권가 목표가 줄상향(컨센서스 437,916원). 2026년 '턴어라운드 원년' 선언."
+      },
+      {
+        "factor": "거래량 확인된 매수세",
+        "detail": "직전 확정봉(4/2) 거래량 1,822,137주(20일 평균 대비 283.5%). OBV 상승. VWAP 위에서 거래. Value Area 돌파 후 강세 영역 진입."
+      },
+      {
+        "factor": "전고체 배터리 기대감",
+        "detail": "BMW와 전고체 공동개발 협약. 2027년 양산 목표. '배터리 게임 체인저' 선점 기대."
+      }
+    ],
+    "negative": [
+      {
+        "factor": "재무 적자 지속",
+        "detail": "2025년 연간 영업적자 1.72조원. 2026년에도 적자폭 -4,852억원 전망(컨센서스). 2027년에야 흑자전환 예상."
+      },
+      {
+        "factor": "3년 무배당 결정",
+        "detail": "2025~2027년 현금배당 미실시 결정. FCF 적자 지속. 주주환원 매력 제로."
+      },
+      {
+        "factor": "단기 과열 신호",
+        "detail": "BB %B 102.8%(상단 돌파), CCI 227(과매수), 트위저 탑 고점 반전 패턴. ADX 14.31로 추세 약함에도 가격만 급등 → 지속성 의문."
+      },
+      {
+        "factor": "매크로 역풍",
+        "detail": "중동 지정학적 리스크로 유가 100달러·환율 1,500원대 돌파. 스태그플레이션 우려. 코스피 4/2 -4.47% 급락."
+      },
+      {
+        "factor": "EV 캐즘 + 경쟁 심화",
+        "detail": "전기차 전환 속도 둔화. 중국 CATL LFP 가격 공세. 주요 OEM 주문 지연. 각형 배터리 출하 예상 하회."
+      }
+    ],
+    "checklist": [
+      {"item": "MA 정배열 확인", "status": "pass"},
+      {"item": "MACD 양전 + 히스토그램 확대", "status": "pass"},
+      {"item": "주봉 상위TF 강세 확인", "status": "pass"},
+      {"item": "거래량 20일 평균 대비 150%+", "status": "pass"},
+      {"item": "RSI 과매수(70+) 아님", "status": "pass"},
+      {"item": "BB %B 80 이하 안정권", "status": "fail"},
+      {"item": "ADX 20+ 추세 존재", "status": "fail"},
+      {"item": "영업이익 흑자", "status": "fail"},
+      {"item": "배당 지급", "status": "fail"},
+      {"item": "매크로 환경 우호적", "status": "warning"}
+    ]
+  },
+  "market_context": {
+    "macro_summary": "한국 경기 저점 통과 후 회복 초기 진입. 그러나 중동 지정학적 리스크(미-이란 갈등)로 유가 100달러 시대, 원/달러 환율 1,500원대 돌파. 스태그플레이션 우려 고조. 코스피 6,000선 터치 후 급락, 현재 5,200~5,500 변동. 한은 기준금리 2.5%, 추가 인하 여력 제한(환율 부담). 3월 수출 861억 달러 사상 최대(반도체 주도). 신정부 재정 확대 + 재난지원금 3,580만명 지급 추진. 내수 회복 기대 vs 고유가·고환율 하방 리스크.",
+    "sector_position": "2차전지 업종은 EV 캐즘 속 ESS 수요 폭발이라는 양면 구조. 삼성SDI는 ESS+전고체로 차별화 시도 중이나, 각형 EV 배터리 부문은 CATL·BYD 가격 공세에 방어적. 업종 내 실적 바닥 통과가 가장 빠른 종목 중 하나로 평가. 목표가 컨센서스 437,916원(현재가 대비 소폭 하방).",
+    "correlation_note": "코스피(-4.47% 1일)와 유사한 하락 동조. S&P500(+0.11%)과 디커플링 발생. 중동 리스크에 의한 원화 약세가 수출 기업에는 양면적(환차익 vs 원자재 비용 증가). 2차전지 업종은 유가 상승 시 EV 전환 모멘텀에 긍정적이나, 매크로 불안 시 성장주 디스카운트 적용."
+  },
+  "alerting": {
+    "priority": 3,
+    "priority_label": "참고",
+    "trigger": "가격이 MA20(403,725) 이탈 시 HOLD→주의 전환. 473,500 돌파 시 HOLD→BUY 전환 검토. 376,000 이탈 시 SELL 전환.",
+    "conditions": [
+      "close < 403725 → 단기 지지 붕괴 경고",
+      "close > 473500 with volume > 800000 → 52주 신고가 돌파 매수 신호",
+      "close < 376000 → MA60 이탈, 중기 추세 붕괴",
+      "RSI > 70 → 과매수 경고",
+      "ADX > 25 → 추세 전환 감지"
+    ],
+    "throttle": {
+      "interval_hours": 4,
+      "delta_threshold": 5,
+      "cooldown_hours": 12
+    }
+  },
+  "meta": {
+    "version": "2.1",
+    "analysis_date": "2026-04-04",
+    "data_sources": ["prompt_forge", "fund_helper", "signal_lab"],
+    "signal_lab_version": "v26",
+    "data_collected_at": "2026-04-04T00:01:33+09:00",
+    "validation": {
+      "scoring_method": "weighted_sum → risk_adjusted → market_adjusted",
+      "weights": {
+        "value": 0.25,
+        "growth": 0.25,
+        "momentum": 0.30,
+        "risk": 0.20
+      },
+      "adjustments": [
+        "risk_adjusted: 영업적자 기업 감점 -3",
+        "market_adjusted: 매크로 중립~주의(중동리스크 vs 수출호조 상쇄) +1"
+      ]
+    },
+    "financial_snapshot": {
+      "last_annual": "2025/12",
+      "revenue_annual": 13266700000000,
+      "operating_profit_annual": -1722400000000,
+      "per_ttm": null,
+      "forward_per_2026f": 40.1,
+      "eps_ttm": null,
+      "forward_eps_2026f": 4618,
+      "pbr": 1.54,
+      "ev_ebitda_2026f": 10.4,
+      "market_cap_approx": 35400000000000,
+      "foreign_ownership_pct": 24.55,
+      "dividend_2025_2027": "미실시",
+      "analyst_target_high": 500000,
+      "analyst_target_low": 395000,
+      "analyst_target_consensus": 437916,
+      "analyst_count": 12,
+      "analyst_recommendation": "BUY",
+      "next_earnings": "2026-04 (1Q26 잠정)",
+      "52w_range": "259000-473500"
+    }
+  }
+}
