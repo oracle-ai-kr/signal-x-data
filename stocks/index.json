@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "006400.KS",
+    "name": "삼성SDI",
+    "action": "HOLD",
+    "score": 55,
+    "grade": "C",
+    "sector": "전기·전자 / 2차전지",
+    "updated": "2026-04-04",
+    "label": "단기 강세 모멘텀 우수하나 재무 적자 지속 + 매크로 불확실성으로 적극 매수 부적합",
+    "risk": 40
+  },
+  {
     "symbol": "005380.KS",
     "name": "현대자동차",
     "action": "HOLD",
