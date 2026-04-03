@@ -1,0 +1,72 @@
+{
+  "date": "2026-04-03",
+  "count": 6,
+  "stocks": [
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "icon": "🧊",
+      "sector": "반도체",
+      "action": "BUY",
+      "score": 75,
+      "grade": "B",
+      "risk": 48,
+      "comment": "HBM 수주 확대. AI 반도체 수혜 지속."
+    },
+    {
+      "symbol": "064350",
+      "name": "현대로템",
+      "icon": "🛡️",
+      "sector": "방산·기계",
+      "action": "BUY",
+      "score": 70,
+      "grade": "B",
+      "risk": 55,
+      "comment": "방산 수출 확대 + 시장 역행 강세."
+    },
+    {
+      "symbol": "373220",
+      "name": "LG에너지솔루션",
+      "icon": "🔋",
+      "sector": "2차전지",
+      "action": "HOLD",
+      "score": 55,
+      "grade": "C",
+      "risk": 58,
+      "comment": "수요 둔화 우려와 북미 확장 사이 균형."
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "icon": "💎",
+      "sector": "반도체",
+      "action": "HOLD",
+      "score": 52,
+      "grade": "C",
+      "risk": 62,
+      "comment": "코스피 약세 속 반도체 섹터 관망. 외인 매도 지속."
+    },
+    {
+      "symbol": "023590",
+      "name": "다우기술",
+      "icon": "📊",
+      "sector": "IT 서비스",
+      "action": "HOLD",
+      "score": 45,
+      "grade": "D",
+      "risk": 65,
+      "comment": "실적 부진 지속. 구조적 성장 의문."
+    },
+    {
+      "symbol": "253590",
+      "name": "네오셈",
+      "icon": "⚠️",
+      "sector": "반도체 소재",
+      "action": "SELL",
+      "score": 28,
+      "grade": "F",
+      "risk": 82,
+      "comment": "고점 대비 급락. 구조적 리스크 확대."
+    }
+  ]
+}
