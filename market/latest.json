@@ -1,19 +1,281 @@
 {
-  "updated_at": "2026-04-03T09:00:00+09:00",
-  "phase": "volatile",
-  "risk_level": 68,
-  "direction": "방어적",
-  "headline": "데이터가 연결되면 이 자리에 시장 요약이 표시됩니다.",
-  "summary": "market/latest.json 초기 템플릿입니다. Signal Lab → AI 분석 후 이 파일을 갱신합니다.",
-  "indices": {
-    "kospi": { "value": null, "change": null },
-    "kosdaq": { "value": null, "change": null },
-    "sp500": { "value": null, "change": null }
-  },
-  "environment": {
-    "fx_usdkrw": null,
-    "wti": null,
-    "vix": null,
-    "memo": ""
+  "title": "한국 매크로 환경 리포트 — 2026년 4월",
+  "date": "2026-04-03",
+  "summary": "경기저점 통과 후 회복 초기 국면이나, 미 관세·환율 변동성·외국인 매도 확대로 하방 리스크 상존. 반도체 수출 호조가 성장 견인하나, 자동차·내수 업종은 관세 직격탄으로 압박.",
+  "sections": [
+    {
+      "depth": 1,
+      "label": "경기 사이클",
+      "question": "한국 경기 현재 위치와 주요 리스크는?",
+      "type": "bar",
+      "data": {
+        "items": [
+          {
+            "name": "GDP 성장률(E)",
+            "value": 1.9,
+            "maxValue": 5,
+            "status": "중립",
+            "color": "yellow"
+          },
+          {
+            "name": "소비 회복",
+            "value": 45,
+            "maxValue": 100,
+            "status": "중립",
+            "color": "yellow"
+          },
+          {
+            "name": "설비투자",
+            "value": 50,
+            "maxValue": 100,
+            "status": "중립",
+            "color": "yellow"
+          },
+          {
+            "name": "수출 모멘텀",
+            "value": 55,
+            "maxValue": 100,
+            "status": "강세",
+            "color": "green"
+          },
+          {
+            "name": "관세 리스크",
+            "value": 75,
+            "maxValue": 100,
+            "status": "주의",
+            "color": "red"
+          }
+        ],
+        "comment": "KDI 전망 1.9% 성장, 반도체 호조 vs 관세·내수 부진 상충"
+      }
+    },
+    {
+      "depth": 2,
+      "label": "돈의 방향",
+      "question": "원/달러 환율 전망과 핵심 변수는?",
+      "type": "bar",
+      "data": {
+        "items": [
+          {
+            "name": "원/달러 수준",
+            "value": 70,
+            "maxValue": 100,
+            "status": "주의",
+            "color": "red"
+          },
+          {
+            "name": "한미 금리차",
+            "value": 55,
+            "maxValue": 100,
+            "status": "중립",
+            "color": "yellow"
+          },
+          {
+            "name": "경상수지",
+            "value": 60,
+            "maxValue": 100,
+            "status": "강세",
+            "color": "green"
+          },
+          {
+            "name": "자본유출 압력",
+            "value": 65,
+            "maxValue": 100,
+            "status": "주의",
+            "color": "red"
+          }
+        ],
+        "comment": "고환율 고착 우려 vs 경상흑자·한미금리차 축소로 점진적 안정 전망"
+      }
+    },
+    {
+      "depth": 3,
+      "label": "자금 흐름",
+      "question": "기관/개인/외국인 매매 동향은? (한국)",
+      "type": "bar",
+      "data": {
+        "items": [
+          {
+            "name": "외국인 순매수 강도",
+            "value": 35,
+            "maxValue": 100,
+            "status": "약세",
+            "color": "red"
+          },
+          {
+            "name": "기관 순매수 강도",
+            "value": 50,
+            "maxValue": 100,
+            "status": "중립",
+            "color": "yellow"
+          },
+          {
+            "name": "개인 매수세",
+            "value": 60,
+            "maxValue": 100,
+            "status": "중립",
+            "color": "yellow"
+          },
+          {
+            "name": "프로그램 매매",
+            "value": 40,
+            "maxValue": 100,
+            "status": "약세",
+            "color": "red"
+          }
+        ],
+        "comment": "외국인 매도 확대 기조 지속, 개인 저가매수 유입, 기관 중립"
+      }
+    },
+    {
+      "depth": 4,
+      "label": "변수/이벤트",
+      "question": "한국 정치/정책 변화가 증시에 미치는 영향은?",
+      "type": "tag",
+      "data": {
+        "tags": [
+          {
+            "text": "미국 자동차 관세 25%",
+            "status": "위험",
+            "color": "red"
+          },
+          {
+            "text": "한미 관세 협상",
+            "status": "기회",
+            "color": "green"
+          },
+          {
+            "text": "신정부 내수부양",
+            "status": "기회",
+            "color": "green"
+          },
+          {
+            "text": "한은 금리인하 기대",
+            "status": "강세",
+            "color": "green"
+          },
+          {
+            "text": "중간선거 불확실성(美)",
+            "status": "주의",
+            "color": "yellow"
+          },
+          {
+            "text": "가계부채 리스크",
+            "status": "주의",
+            "color": "red"
+          }
+        ],
+        "comment": "미 관세가 최대 변수, 한미 협상 타결 여부에 따라 분기점"
+      }
+    },
+    {
+      "depth": 5,
+      "label": "시장 심리",
+      "question": "외국인 투자자의 한국 시장 포지셔닝과 시각은?",
+      "type": "bar",
+      "data": {
+        "items": [
+          {
+            "name": "외국인 포지션",
+            "value": 35,
+            "maxValue": 100,
+            "status": "약세",
+            "color": "red"
+          },
+          {
+            "name": "밸류에이션 매력",
+            "value": 70,
+            "maxValue": 100,
+            "status": "강세",
+            "color": "green"
+          },
+          {
+            "name": "리스크 프리미엄",
+            "value": 65,
+            "maxValue": 100,
+            "status": "주의",
+            "color": "yellow"
+          },
+          {
+            "name": "투자심리(VIX 환산)",
+            "value": 40,
+            "maxValue": 100,
+            "status": "주의",
+            "color": "yellow"
+          }
+        ],
+        "comment": "저PER 매력 존재하나, 관세·정치 리스크로 외국인 관망 내지 매도 우위"
+      }
+    },
+    {
+      "depth": 6,
+      "label": "행동 판단",
+      "question": "어떤 섹터에 비중을 둘 것인가?",
+      "type": "heatmap",
+      "data": {
+        "items": [
+          {
+            "name": "반도체",
+            "value": 70,
+            "status": "강세",
+            "color": "green"
+          },
+          {
+            "name": "자동차",
+            "value": -20,
+            "status": "주의",
+            "color": "red"
+          },
+          {
+            "name": "조선/방산",
+            "value": 50,
+            "status": "강세",
+            "color": "green"
+          },
+          {
+            "name": "금융",
+            "value": 30,
+            "status": "중립",
+            "color": "yellow"
+          },
+          {
+            "name": "2차전지",
+            "value": 10,
+            "status": "중립",
+            "color": "yellow"
+          },
+          {
+            "name": "바이오",
+            "value": 20,
+            "status": "중립",
+            "color": "yellow"
+          },
+          {
+            "name": "건설/부동산",
+            "value": -30,
+            "status": "약세",
+            "color": "red"
+          },
+          {
+            "name": "유틸리티",
+            "value": 15,
+            "status": "중립",
+            "color": "yellow"
+          }
+        ],
+        "comment": "반도체·조선/방산 비중 확대, 자동차는 관세 리스크로 비중 축소 권고"
+      }
+    }
+  ],
+  "conclusion": {
+    "action": "반도체·방산 중심 선별적 비중 확대, 자동차·건설 비중 축소 또는 관망",
+    "risk_level": "medium",
+    "tags": [
+      "관세리스크",
+      "반도체호조",
+      "외국인매도",
+      "환율변동성",
+      "내수회복초기"
+    ]
   }
 }
