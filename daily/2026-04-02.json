@@ -1,0 +1,17 @@
+{
+  "date": "2026-04-02",
+  "count": 1,
+  "stocks": [
+    {
+      "symbol": "454910",
+      "name": "두산로보틱스",
+      "icon": "🤖",
+      "sector": "로봇·자동화",
+      "action": "HOLD",
+      "score": 38,
+      "grade": "D",
+      "risk": 72,
+      "comment": "성장 기대감 vs 실적 부재. 고밸류 부담 지속."
+    }
+  ]
+}
