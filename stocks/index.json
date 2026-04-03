@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "064350.KS",
+    "name": "현대로템",
+    "action": "BUY",
+    "score": 72,
+    "grade": "B",
+    "sector": "방산/운송장비",
+    "updated": "2026-04-04",
+    "label": "저점 반등 + 수주잔고 뒷받침 → 분할 매수 적기",
+    "risk": 58
+  },
+  {
     "symbol": "006400.KS",
     "name": "삼성SDI",
     "action": "HOLD",
