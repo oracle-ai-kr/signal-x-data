@@ -1,10 +1,32 @@
 {
-  "updated_at": "2026-04-03T09:00:00+09:00",
-  "top_picks": [],
-  "spike_signals": [],
+  "updated_at": "2026-04-04T01:17:33.885Z",
+  "top_picks": [
+    {
+      "symbol": "064350.KS",
+      "name": "현대로템",
+      "action": "BUY",
+      "score": 72,
+      "grade": "B",
+      "sector": "방산/운송장비",
+      "label": "저점 반등 + 수주잔고 뒷받침 → 분할 매수 적기",
+      "icon": "📈"
+    }
+  ],
+  "spike_signals": [
+    {
+      "symbol": "064350.KS",
+      "name": "현대로템",
+      "action": "BUY",
+      "score": 72,
+      "grade": "B",
+      "sector": "방산/운송장비",
+      "label": "저점 반등 + 수주잔고 뒷받침 → 분할 매수 적기",
+      "icon": "⚡"
+    }
+  ],
   "risk_warnings": [],
   "meta": {
-    "total_analyzed": 0,
-    "note": "ranking/latest.json 초기 템플릿입니다. 종목 분석이 쌓이면 자동 갱신됩니다."
+    "total_analyzed": 3,
+    "note": "stocks/coins index.json 기반 자동 생성"
   }
 }
