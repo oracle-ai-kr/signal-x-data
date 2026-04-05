@@ -11,6 +11,16 @@
     "risk": 58
   },
   {
+    "symbol": "100840.KS",
+    "name": "SNT에너지",
+    "action": "BUY",
+    "score": 65,
+    "grade": "B",
+    "sector": "기계·장비",
+    "updated": "2026-04-05",
+    "risk": 45
+  },
+  {
     "symbol": "006400.KS",
     "name": "삼성SDI",
     "action": "HOLD",
