@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T05:07:38.512Z",
+  "updated_at": "2026-04-05T11:38:09.557Z",
   "top_picks": [
     {
       "symbol": "064350.KS",
@@ -9,6 +9,16 @@
       "grade": "B",
       "sector": "방산/운송장비",
       "label": "저점 반등 + 수주잔고 뒷받침 → 분할 매수 적기",
+      "icon": "📈"
+    },
+    {
+      "symbol": "100840.KS",
+      "name": "SNT에너지",
+      "action": "BUY",
+      "score": 65,
+      "grade": "B",
+      "sector": "기계·장비",
+      "label": "",
       "icon": "📈"
     }
   ],
@@ -22,11 +32,21 @@
       "sector": "방산/운송장비",
       "label": "저점 반등 + 수주잔고 뒷받침 → 분할 매수 적기",
       "icon": "⚡"
+    },
+    {
+      "symbol": "100840.KS",
+      "name": "SNT에너지",
+      "action": "BUY",
+      "score": 65,
+      "grade": "B",
+      "sector": "기계·장비",
+      "label": "",
+      "icon": "⚡"
     }
   ],
   "risk_warnings": [],
   "meta": {
-    "total_analyzed": 3,
+    "total_analyzed": 4,
     "note": "stocks/coins index.json 기반 자동 생성"
   }
 }
