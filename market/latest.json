@@ -1,101 +1,94 @@
 {
-  "title": "SIGNAL X 매크로 리포트 — 2026년 4월 4일",
-  "date": "2026-04-04",
-  "summary": "한국은행 기준금리 2.5% 장기 동결, GDP 2.0% 성장 전망. 반도체 수출 호조이나 미국 관세·글로벌 지정학 리스크로 코스피 급락. 방산·반도체 디커플링 주목.",
+  "title": "글로벌 매크로 환경 분석 리포트",
+  "date": "2026-04-05",
+  "summary": "연준 금리 3.50~3.75% 동결 유지, 이란전쟁 지정학 리스크로 VIX 23.87 경계 수준. 유가 급등 인플레이션 재가속 우려 속 금리인하 시기 불투명. 에너지 섹터는 LNG 수요 확대 수혜 vs 지정학 변동성 공존.",
   "sections": [
     {
       "depth": 1,
       "label": "경기 사이클",
-      "question": "현재 글로벌 경기는 확장기인가, 수축기인가?",
+      "question": "글로벌 경기침체 가능성은 얼마나 되나?",
       "type": "gauge",
       "data": {
-        "label": "글로벌 경기 사이클",
-        "value": 52,
-        "status": "중립",
+        "label": "경기침체 확률",
+        "value": 35,
+        "status": "주의",
         "color": "yellow",
-        "comment": "IMF 2026년 세계 성장률 3.3% 전망. 미국 경기 둔화 우려 vs AI·반도체 투자 호조로 확장기 말기~중립 구간."
+        "comment": "미국 GDP 견조한 확장세이나 이란전쟁·유가충격으로 불확실성 확대. 연준 점도표 큰 변화 없으나 스태그플레이션 우려 일부 대두."
       }
     },
     {
       "depth": 2,
       "label": "돈의 방향",
-      "question": "한국은행 금리 전망과 미국과의 금리 차이는?",
-      "type": "bar",
+      "question": "장단기 금리 역전 상태와 의미는?",
+      "type": "gauge",
       "data": {
-        "items": [
-          {"name": "한국 기준금리", "value": 2.5, "maxValue": 5.5, "status": "중립", "color": "blue"},
-          {"name": "미국 기준금리", "value": 4.25, "maxValue": 5.5, "status": "주의", "color": "yellow"},
-          {"name": "금리차(한-미)", "value": -1.75, "maxValue": 3, "status": "주의", "color": "red"}
-        ],
-        "comment": "한미 금리차 -175bp 유지. 한은 6회 연속 동결, 추가 인하 문구 삭제. 원화 약세 + 가계부채 부담으로 인하 여력 제한."
+        "label": "장단기 금리차 긴장도",
+        "value": 55,
+        "status": "주의",
+        "color": "yellow",
+        "comment": "기준금리 3.50~3.75%, 10년물 국채 4.31%. 역전 해소 국면이나 유가발 인플레이션 재점화 시 재역전 가능성. 금리인하 기대 후퇴."
       }
     },
     {
       "depth": 3,
       "label": "자금 흐름",
-      "question": "한국 정부/공공기관의 시장 개입 현황은?",
-      "type": "flow",
+      "question": "채권으로 자금이 몰리고 있나? (안전자산 수요)",
+      "type": "bar",
       "data": {
-        "steps": [
-          {"text": "공매도 부분 재개(2024.3)", "status": "중립", "color": "yellow"},
-          {"text": "기업 밸류업 프로그램 지속", "status": "기회", "color": "green"},
-          {"text": "연기금 국내주식 비중 유지", "status": "중립", "color": "blue"},
-          {"text": "외국인 순매도 지속", "status": "주의", "color": "red"}
+        "items": [
+          {"name": "미 국채 수요", "value": 65, "maxValue": 100, "status": "주의", "color": "yellow"},
+          {"name": "금(안전자산)", "value": 82, "maxValue": 100, "status": "강세", "color": "green"},
+          {"name": "달러 인덱스", "value": 58, "maxValue": 100, "status": "중립", "color": "blue"},
+          {"name": "신흥국 자금유출", "value": 45, "maxValue": 100, "status": "주의", "color": "yellow"}
         ],
-        "comment": "정부 밸류업 정책 유지되나, 외국인 자금 유출 압력 상존. 연기금은 방산·반도체 중심 비중 유지."
+        "comment": "금 가격 온스당 $4,702로 사상 최고 수준. 이란전쟁 리스크 헤지 수요. 채권·달러는 혼조. 한국 코스피 6000 돌파 후 외국인 순매수 지속이나 환율 변동성 확대."
       }
     },
     {
       "depth": 4,
       "label": "변수/이벤트",
-      "question": "한국 정치/정책 변화가 증시에 미치는 영향은?",
-      "type": "tag",
+      "question": "다음 FOMC 회의 예상과 시장 영향은?",
+      "type": "timeline",
       "data": {
-        "tags": [
-          {"text": "이재명 정부 출범", "status": "중립", "color": "yellow"},
-          {"text": "미국 상호관세", "status": "위험", "color": "red"},
-          {"text": "방산 수출 정책 강화", "status": "기회", "color": "green"},
-          {"text": "원화 약세 지속", "status": "주의", "color": "yellow"},
-          {"text": "부동산 규제 완화", "status": "중립", "color": "blue"}
+        "events": [
+          {"date": "2026-03-18", "text": "FOMC 3월 회의 — 금리 동결(3.50~3.75%), 점도표 변화 미미", "status": "중립", "color": "blue"},
+          {"date": "2026-04-01", "text": "트럼프 이란 추가 공격 시사 발언 — VIX 10% 급등", "status": "위험", "color": "red"},
+          {"date": "2026-05-06", "text": "차기 FOMC 예정 — 금리동결 예상 우세, 유가·인플레이션 데이터 주시", "status": "주의", "color": "yellow"},
+          {"date": "2026-06-17", "text": "FOMC 6월 회의(SEP 포함) — 점도표 업데이트, 금리인하 가능성 재평가", "status": "기회", "color": "green"}
         ],
-        "comment": "미국 관세 정책이 최대 변수. 방산 수출 정책 강화는 현대로템 등 방산주에 직접적 수혜."
+        "comment": "5월 FOMC 금리동결 유력. 이란전쟁 종전 협상 진전 여부가 핵심 변수. 6월 SEP에서 하반기 금리 경로 재설정 가능."
       }
     },
     {
       "depth": 5,
       "label": "시장 심리",
-      "question": "국내 기관의 매매 심리와 방향은?",
-      "type": "bar",
+      "question": "VIX 지수 수준과 변동성 전망은?",
+      "type": "gauge",
       "data": {
-        "items": [
-          {"name": "소비자심리지수(CCSI)", "value": 107, "maxValue": 150, "status": "중립", "color": "yellow"},
-          {"name": "기관 순매수 강도", "value": 45, "maxValue": 100, "status": "약세", "color": "red"},
-          {"name": "외국인 센티먼트", "value": 35, "maxValue": 100, "status": "약세", "color": "red"},
-          {"name": "방산 섹터 심리", "value": 72, "maxValue": 100, "status": "강세", "color": "green"}
-        ],
-        "comment": "CCSI 107.0(전월비 -5.1p). 전체 시장 심리 위축되나, 방산 섹터는 수주 모멘텀으로 독자 강세 심리 유지."
+        "label": "VIX 공포지수",
+        "value": 48,
+        "status": "주의",
+        "color": "yellow",
+        "comment": "VIX 23.87로 '경계' 수준(20~30). 52주 고점 60.13(이란전쟁 직격), 52주 저점 13.38. 전쟁 장기화 불확실성 상존하나 극단적 공포는 완화. 평시 15~18 대비 여전히 높음."
       }
     },
     {
       "depth": 6,
       "label": "행동 판단",
-      "question": "미국 vs 한국 vs 신흥국, 어디에 비중을 둘 것인가?",
-      "type": "heatmap",
+      "question": "지금 주식 비중을 늘려야 하나, 줄여야 하나?",
+      "type": "gauge",
       "data": {
-        "items": [
-          {"name": "미국", "value": 15, "status": "중립", "color": "yellow"},
-          {"name": "한국", "value": 25, "status": "기회", "color": "green"},
-          {"name": "신흥국", "value": -10, "status": "주의", "color": "red"},
-          {"name": "한국 방산", "value": 55, "status": "강세", "color": "green"},
-          {"name": "한국 반도체", "value": 30, "status": "기회", "color": "green"}
-        ],
-        "comment": "글로벌 관세 불확실성 속 한국 방산·반도체 섹터가 상대적 강세. 코스피 급락은 오히려 우량 방산주 매수 기회."
+        "label": "주식 비중 적정도",
+        "value": 52,
+        "status": "중립",
+        "color": "blue",
+        "comment": "중립 유지 권장. 이란전쟁 불확실성으로 급격한 비중 확대는 리스크. 다만 코스피 6000 돌파·기업실적 호조로 저가 매수 기회 모색. 에너지·방산 섹터 선별적 비중 확대 유효."
       }
     }
   ],
   "conclusion": {
-    "action": "코스피 급락 속 방산·반도체 디커플링 구간 — 현대로템 등 수주 가시성 높은 방산주 분할 매수 유효",
+    "action": "에너지·LNG 관련 우량 수주 기업 분할매수 접근, 지정학 리스크 대비 현금 비중 30% 유지 권장",
     "risk_level": "medium",
-    "tags": ["방산디커플링", "금리동결", "수출호조", "관세리스크", "코스피급락"]
+    "tags": ["이란전쟁", "금리동결", "VIX경계", "LNG수요확대", "유가변동성", "코스피6000"]
   }
 }
