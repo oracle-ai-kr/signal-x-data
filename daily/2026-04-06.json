@@ -1,0 +1,197 @@
+{
+  "date": "2026-04-06",
+  "signals": [
+    {
+      "symbol": "100840.KS",
+      "name": "SNT에너지",
+      "action": "BUY",
+      "score": 0,
+      "grade": "B",
+      "data": {
+        "identity": {
+          "ticker": "100840",
+          "symbol": "100840.KS",
+          "name": "SNT에너지",
+          "exchange": "KRX",
+          "sector": "기계·장비",
+          "industry": "에너지 설비 및 서비스",
+          "currency": "KRW"
+        },
+        "summary": {
+          "action": "BUY",
+          "grade": "B",
+          "score": 65,
+          "score_explained": "4개 원천 가중합산 → 리스크 보정 → 시장 보정. value=62(w25%)=15.5, growth=78(w25%)=19.5, momentum=72(w30%)=21.6, risk=45(w20%→역산55)=11.0 → 가중합=67.6. 백테스트 승률 28.6%(<40%) 페널티 -3 → 64.6. 이란전쟁 지정학 리스크 VIX 23.87 보정 +0.4 → 65.0. 최종 score=65, grade=B.",
+          "score_summary": "중동·북미 LNG 수주 확대로 성장성이 뛰어나고 기술적 상승 추세가 견고하나, 백테스트 승률 부진과 단기 과열 신호로 진입 타이밍 주의가 필요한 종목입니다.",
+          "headline": "글로벌 에어쿨러 1위, 중동+북미 LNG 수주 폭증 — 단기 과열 경계 속 중기 성장 유효"
+        },
+        "scoreboard": {
+          "composite_score": 65,
+          "composite_label": "중기 성장 유효, 단기 진입 시점 분할 접근 권장",
+          "sources": {
+            "value": {
+              "score": 62,
+              "weight": 0.25,
+              "reason": "PER 12.9배(TTM)로 업종 평균 대비 적정 수준. PBR 2.5~3.2배는 ROE 19.5% 감안 시 합리적이나 저평가라 보기 어려움. 2024년 영업이익 222억→2025E 507~828억 급성장 반영 시 Forward PER은 크게 하락 예상. EV/EBITDA 17.6배로 다소 높은 편이나 수주잔고 9000억 이상으로 이익 가시성 확보."
+            },
+            "growth": {
+              "score": 78,
+              "weight": 0.25,
+              "reason": "2025 상반기 매출 +98.6%, 영업이익 +401.2% 폭발적 성장. 수주잔고 역대 최대 9000억 돌파. 에어쿨러 매출비중 80~90%, HRSG 10~20%. 사우디 아람코 CPA 장기조달계약, Marjan·Jafurah·Fadhili 프로젝트 연속 수주. 미국 베크텔에너지 719억 수주로 북미 시장 진출. 사우디 전력청 7.2GW HRSG 유일 현지 공급사 승인."
+            },
+            "momentum": {
+              "score": 72,
+              "weight": 0.3,
+              "reason": "MA 정배열(5>13>20>60), ADX 38.26 강추세, MACD 양전 유지. RSI 59.39 중립~강세 구간. 주봉도 정배열+MACD 양전으로 상위TF 구조 양호. 4/3 +11% 급등(거래량 233% 폭증)으로 단기 모멘텀 강하나, BB밴드폭 33.84% 과확장, 20일 +27% 과열 경계 필요. VP-POC 48,725 위 위치로 매수세 주도."
+            },
+            "risk": {
+              "score": 45,
+              "weight": 0.2,
+              "reason": "백테스트 승률 28.6%(7건 중 2건 승), PF 2.0이나 총수익률 -14.62%, MDD 23.81% 과대. ATR% 9.94% 고변동성. 52주 고점 대비 -14% 위치이나 최근 급등 후 차익실현 매물 부담. 이란전쟁 지정학 리스크로 유가변동→에너지 섹터 변동성 확대 가능."
+            }
+          },
+          "scoring_method": "weighted_sum → risk_adjusted → market_adjusted"
+        },
+        "action_plan": {
+          "entry_price": 49500,
+          "target_price": 58500,
+          "stop_loss": 45000,
+          "risk_reward_ratio": 2,
+          "position_size": "분할매수 3회 (49500/47000/45500)",
+          "timeframe": "2~4주",
+          "scenarios": [
+            {
+              "label": "강세 시나리오",
+              "probability": 40,
+              "description": "MA정배열+ADX강추세 지속, VP-VAH 52,750 돌파 후 전고점 54,400→58,500 테스트. 거래량 동반 시 52주 고점 60,500 재도전 가능. 촉매: 신규 수주 공시, 2026Q1 어닝서프라이즈."
+            },
+            {
+              "label": "기본 시나리오",
+              "probability": 35,
+              "description": "48,700~54,400 박스권 횡보. 급등 후 차익실현으로 Fib 23.6%(49,869)~VP-POC(48,725) 지지 테스트 후 재상승 시도. 변동성 수렴 과정에서 매집 기회."
+            },
+            {
+              "label": "약세 시나리오",
+              "probability": 25,
+              "description": "지정학 리스크 확대 또는 유가 급변동으로 Fib 38.2%(47,190)→MA20(46,830) 이탈. 스윙저점 46,250 하회 시 Fib 50%(45,025)까지 조정 가능. 손절 45,000 하회 시 추세 전환."
+            }
+          ]
+        },
+        "reasoning": {
+          "positive": [
+            {
+              "factor": "수주잔고 역대 최대",
+              "detail": "2025Q1 기준 수주잔고 9,000억원 돌파. 사우디 아람코 Marjan·Jafurah Phase I/II·Fadhili 프로젝트 연속 수주. 국내 유일 에어쿨러 독점 업체로 글로벌 수주 점유율 70%."
+            },
+            {
+              "factor": "실적 폭발적 성장",
+              "detail": "2025 상반기 매출 +98.6%, 영업이익 +401.2%. 2분기 영업이익 274억(YoY +445%)으로 어닝서프라이즈. 2025E 매출 5,520억(+87.6%), 영업이익 828억(+272.2%) 전망."
+            },
+            {
+              "factor": "북미 시장 확장",
+              "detail": "베크텔에너지 719억 에어쿨러 공급계약(2024.12). 트럼프 2기 LNG 프로젝트 재개로 레이크찰스·드리프트우드·텍사스 LNG 추가 수주 기대."
+            },
+            {
+              "factor": "기술적 강세 구조",
+              "detail": "MA 정배열+ADX 38.26 강추세+MACD 양전. 주봉도 동일 구조. 시장(코스피) 대비 아웃퍼폼. VWAP 위 + 거래량 양호로 매수세 주도."
+            },
+            {
+              "factor": "HRSG 성장 동력",
+              "detail": "사우디 전력청 7.2GW 유일 현지 HRSG 공급사 승인. 국내 분당·아산탕정·송산 복합화력 건설 수주 확대. 하몬 델탁 원천기술 인수로 기술 경쟁력 확보."
+            }
+          ],
+          "negative": [
+            {
+              "factor": "백테스트 승률 부진",
+              "detail": "승률 28.6%(7건 중 2승), 총수익률 -14.62%, MDD 23.81%. PF 2.0이나 평균손실(-9.76%) 대비 평균이익(+19.52%)의 빈도가 낮아 신뢰성 부족."
+            },
+            {
+              "factor": "단기 과열 신호",
+              "detail": "20일 +26.92% 급등, BB밴드폭 33.84% 과확장. 4/3 거래량 233% 폭증은 추세 가속이나 과열 경계 필요. ATR% 9.94% 고변동성."
+            },
+            {
+              "factor": "수주 베이스 산업 리스크",
+              "detail": "에어쿨러·HRSG 모두 대형 프로젝트 수주 의존. 중동 정치 상황, 유가 변동, 글로벌 경기 둔화 시 수주 지연·취소 리스크."
+            },
+            {
+              "factor": "이란전쟁 지정학 리스크",
+              "detail": "VIX 23.87(52주 고점 60.13). 이란 전쟁 장기화 시 유가 급등→에너지 프로젝트 불확실성 확대. 중동 현지법인 운영 리스크."
+            },
+            {
+              "factor": "밸류에이션 부담",
+              "detail": "PBR 2.5~3.2배, EV/EBITDA 17.6배는 플랜트 기자재 업종 대비 프리미엄. 급등 후 현재 시가총액 ~1조원대로 성장 기대 상당 부분 반영."
+            }
+          ],
+          "checklist": [
+            {
+              "item": "수주잔고 9000억+ 확인",
+              "status": "pass"
+            },
+            {
+              "item": "2025 영업이익 성장률 +200%+",
+              "status": "pass"
+            },
+            {
+              "item": "MA 정배열 + ADX 상승추세",
+              "status": "pass"
+            },
+            {
+              "item": "RSI 과매수 미진입(70 미만)",
+              "status": "pass"
+            },
+            {
+              "item": "백테스트 승률 40%+",
+              "status": "fail"
+            },
+            {
+              "item": "MDD 20% 이내",
+              "status": "fail"
+            },
+            {
+              "item": "VIX 20 이하 안정 구간",
+              "status": "fail"
+            },
+            {
+              "item": "BB밴드폭 정상(25% 이내)",
+              "status": "fail"
+            }
+          ]
+        },
+        "market_context": {
+          "macro_summary": "연준 기준금리 3.50~3.75% 동결 유지(2026.3 FOMC). 이란전쟁 지정학 리스크로 유가 급등·VIX 52주 고점 60.13 기록 후 23.87로 회귀. 인플레이션 재가속 우려로 금리인하 시기 불투명. 미·한 금리차 지속으로 원·달러 환율 상승 압력. 코스피 6000선 돌파 후 변동성 구간. AI 데이터센터 전력수요 급증으로 LNG 에너지 정책 가속화.",
+          "sector_position": "글로벌 공랭식 열교환기 시장 점유율 약 70%로 1위. KHE 인수 후 국내 유일 에어쿨러 업체. 에너지 기자재 섹터 내 수주잔고·성장성 최상위. 중동(아람코 CPA)+북미(베크텔) 양 축 성장 구도.",
+          "correlation_note": "유가 상승은 중동 플랜트 투자 확대→에어쿨러 수요 증가로 긍정적이나, 극단적 유가 급등은 프로젝트 지연 리스크. 원·달러 환율 상승은 수출 비중 80% 기업에 우호적(환율 효과). 코스피 대비 아웃퍼폼 중(+11% vs 코스피 +2.74%)."
+        },
+        "alerting": {
+          "priority": 2,
+          "trigger": "종가 기준 VP-VAH 52,750 돌파 시 강세 확인 / Fib 38.2% 47,190 이탈 시 약세 전환 경고 / 신규 수주 공시 발생 시 재평가",
+          "throttle": {
+            "interval_hours": 4,
+            "delta_threshold": 5,
+            "cooldown_hours": 12
+          }
+        },
+        "meta": {
+          "version": "2.1",
+          "analysis_date": "2026-04-05",
+          "validation": {
+            "scoring_method": "weighted_sum → risk_adjusted → market_adjusted",
+            "backtest_reflected": true,
+            "fundamental_verified": true,
+            "technical_verified": true,
+            "macro_reflected": true
+          },
+          "data_sources": [
+            "prompt_forge",
+            "fund_helper",
+            "signal_lab",
+            "sx_backtester"
+          ],
+          "notes": "백테스트 승률 28.6%로 risk score에 페널티 반영. MDD 23.81%로 reasoning.negative에 명시. 재무 데이터는 FnGuide·밸류라인·증권사 리포트 기반 검증."
+        }
+      }
+    }
+  ],
+  "count": 1,
+  "updated_at": "2026-04-06T01:02:06.677Z"
+}
