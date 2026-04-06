@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "updated": "2026-04-06",
+  "description": "SIGNAL X 스마트분석 규칙 — SX Scanner BUY 탈락 기준 동일 로직. 앱이 fetch하여 이력/워치리스트 분석에 사용.",
+
+  "thresholds": {
+    "D":  {"buyTh": 62, "sellTh": 38},
+    "W":  {"buyTh": 60, "sellTh": 40},
+    "M":  {"buyTh": 58, "sellTh": 42},
+    "5":  {"buyTh": 64, "sellTh": 36},
+    "15": {"buyTh": 64, "sellTh": 36},
+    "30": {"buyTh": 63, "sellTh": 37},
+    "60": {"buyTh": 63, "sellTh": 37}
+  },
+
+  "fail_conditions": [
+    {
+      "id": "score_drop",
+      "label": "점수 임계값 이탈",
+      "desc": "종합 점수가 해당 TF의 buyTh 미만으로 하락",
+      "severity": "hard",
+      "check": "score < buyTh"
+    },
+    {
+      "id": "rsi_overbought",
+      "label": "RSI 과매수",
+      "desc": "RSI(14) 75 초과 — 단기 과열 경고",
+      "severity": "soft",
+      "check": "rsi > 75",
+      "value": 75
+    },
+    {
+      "id": "rsi_oversold",
+      "label": "RSI 급락구간",
+      "desc": "RSI(14) 25 미만 — 추세 붕괴 가능",
+      "severity": "soft",
+      "check": "rsi < 25",
+      "value": 25
+    },
+    {
+      "id": "ma20_break",
+      "label": "MA20 하향 이탈",
+      "desc": "현재가가 20일 이동평균 아래 -3% 이상 이탈",
+      "severity": "soft",
+      "check": "price < ma20 * 0.97",
+      "pct": -3
+    },
+    {
+      "id": "ma60_break",
+      "label": "MA60 하향 이탈",
+      "desc": "현재가가 60일 이동평균 아래로 이탈",
+      "severity": "hard",
+      "check": "price < ma60",
+      "pct": 0
+    },
+    {
+      "id": "macd_dead_cross",
+      "label": "MACD 데드크로스",
+      "desc": "MACD 히스토그램이 양→음 전환 (5봉 연속 음전)",
+      "severity": "soft",
+      "check": "macd_hist < 0 && macd_neg_bars >= 5",
+      "bars": 5
+    },
+    {
+      "id": "volume_dead",
+      "label": "거래량 실종",
+      "desc": "거래량이 20일 평균의 30% 미만",
+      "severity": "hard",
+      "check": "vol_ratio < 0.3",
+      "ratio": 0.3
+    },
+    {
+      "id": "adx_no_trend",
+      "label": "추세 소멸",
+      "desc": "ADX 15 미만으로 추세 사라짐",
+      "severity": "soft",
+      "check": "adx < 15",
+      "value": 15
+    },
+    {
+      "id": "stoch_rsi_diverge",
+      "label": "Stoch/RSI 괴리",
+      "desc": "Stoch %K 90 이상인데 RSI 60 미만 — 신뢰도 저하",
+      "severity": "soft",
+      "check": "stoch_k > 90 && rsi < 60"
+    }
+  ],
+
+  "action_rules": {
+    "description": "hard 1개 이상 = 즉시 SELL. soft 카운트로 등급 판정.",
+    "hard_any": "SELL",
+    "soft_count": {
+      "0": "BUY",
+      "1": "BUY",
+      "2": "HOLD",
+      "3": "SELL",
+      "4": "SELL"
+    }
+  },
+
+  "notes": "이 파일을 수정하면 앱 업데이트 없이 판정 기준 변경 가능. version 필드를 올리면 앱이 캐시 갱신."
+}
